@@ -4,7 +4,6 @@ from c4d.documents   import GetActiveDocument
 from c4d import utils
 
 
-
 def create_display_tag(myobject):
     mytag = myobject.MakeTag(c4d.Tdisplay)
     mytag[c4d.DISPLAYTAG_AFFECT_TEXTURES] = 1

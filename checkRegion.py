@@ -1,3 +1,7 @@
+### postwendend.com ###
+### tobias hoffmann ###
+### kontakt@postwendend.com ###
+
 import c4d
 
 rvalue = True

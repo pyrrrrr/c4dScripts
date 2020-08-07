@@ -4,7 +4,7 @@ from c4d import gui
 
 
 def main():
-    selection     = doc.GetSelection()
+    selection  = doc.GetActiveObjects()
     i = 0
     for item in selection:
         l = c4d.BaseObject(c4d.Olight)
